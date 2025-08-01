@@ -1,0 +1,11 @@
+[4.483s] Invoking command in '/home/jonathan/gripper/src/gripper_control': PYTHONPATH=/home/jonathan/gripper/build/gripper_servo_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jonathan/gripper/install/gripper_servo_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gripper_servo_control build --build-base /home/jonathan/gripper/build/gripper_servo_control/build install --record /home/jonathan/gripper/build/gripper_servo_control/install.log --single-version-externally-managed install_data
+[5.908s] running egg_info
+[5.910s] creating ../../build/gripper_servo_control/gripper_servo_control.egg-info
+[5.912s] writing ../../build/gripper_servo_control/gripper_servo_control.egg-info/PKG-INFO
+[5.913s] writing dependency_links to ../../build/gripper_servo_control/gripper_servo_control.egg-info/dependency_links.txt
+[5.914s] writing entry points to ../../build/gripper_servo_control/gripper_servo_control.egg-info/entry_points.txt
+[5.915s] writing requirements to ../../build/gripper_servo_control/gripper_servo_control.egg-info/requires.txt
+[5.916s] writing top-level names to ../../build/gripper_servo_control/gripper_servo_control.egg-info/top_level.txt
+[5.917s] writing manifest file '../../build/gripper_servo_control/gripper_servo_control.egg-info/SOURCES.txt'
+[5.922s] error: package directory 'gripper_servo_control' does not exist
+[6.045s] Invoked command in '/home/jonathan/gripper/src/gripper_control' returned '1': PYTHONPATH=/home/jonathan/gripper/build/gripper_servo_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jonathan/gripper/install/gripper_servo_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gripper_servo_control build --build-base /home/jonathan/gripper/build/gripper_servo_control/build install --record /home/jonathan/gripper/build/gripper_servo_control/install.log --single-version-externally-managed install_data

@@ -1,0 +1,22 @@
+[3.646s] Invoking command in '/home/jonathan/gripper/src/gripper_control': PYTHONPATH=/home/jonathan/gripper/build/gripper_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jonathan/gripper/install/gripper_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gripper_control build --build-base /home/jonathan/gripper/build/gripper_control/build install --record /home/jonathan/gripper/build/gripper_control/install.log --single-version-externally-managed install_data
+[5.214s] running egg_info
+[5.217s] writing ../../build/gripper_control/gripper_control.egg-info/PKG-INFO
+[5.219s] writing dependency_links to ../../build/gripper_control/gripper_control.egg-info/dependency_links.txt
+[5.220s] writing entry points to ../../build/gripper_control/gripper_control.egg-info/entry_points.txt
+[5.221s] writing requirements to ../../build/gripper_control/gripper_control.egg-info/requires.txt
+[5.221s] writing top-level names to ../../build/gripper_control/gripper_control.egg-info/top_level.txt
+[5.229s] reading manifest file '../../build/gripper_control/gripper_control.egg-info/SOURCES.txt'
+[5.234s] writing manifest file '../../build/gripper_control/gripper_control.egg-info/SOURCES.txt'
+[5.234s] running build
+[5.234s] running build_py
+[5.236s] running install
+[5.237s] running install_lib
+[5.244s] running install_data
+[5.245s] running install_egg_info
+[5.251s] removing '/home/jonathan/gripper/install/gripper_control/lib/python3.10/site-packages/gripper_control-0.0.1-py3.10.egg-info' (and everything under it)
+[5.253s] Copying ../../build/gripper_control/gripper_control.egg-info to /home/jonathan/gripper/install/gripper_control/lib/python3.10/site-packages/gripper_control-0.0.1-py3.10.egg-info
+[5.259s] running install_scripts
+[5.342s] Installing servo_control_node script to /home/jonathan/gripper/install/gripper_control/lib/gripper_control
+[5.343s] Installing servo_controller script to /home/jonathan/gripper/install/gripper_control/lib/gripper_control
+[5.345s] writing list of installed files to '/home/jonathan/gripper/build/gripper_control/install.log'
+[5.520s] Invoked command in '/home/jonathan/gripper/src/gripper_control' returned '0': PYTHONPATH=/home/jonathan/gripper/build/gripper_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jonathan/gripper/install/gripper_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gripper_control build --build-base /home/jonathan/gripper/build/gripper_control/build install --record /home/jonathan/gripper/build/gripper_control/install.log --single-version-externally-managed install_data

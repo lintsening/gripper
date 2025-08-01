@@ -1,0 +1,4 @@
+[console_scripts]
+servo_control_node = gripper_control.servo_control_node:main
+servo_controller = gripper_control.servo_controller:main
+
