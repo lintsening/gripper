@@ -1,0 +1,94 @@
+[0.000000] (-) TimerEvent: {}
+[0.001816] (gripper_control) JobQueued: {'identifier': 'gripper_control', 'dependencies': OrderedDict()}
+[0.002477] (gripper_control) JobStarted: {'identifier': 'gripper_control'}
+[0.098965] (-) TimerEvent: {}
+[0.199781] (-) TimerEvent: {}
+[0.301128] (-) TimerEvent: {}
+[0.401936] (-) TimerEvent: {}
+[0.502952] (-) TimerEvent: {}
+[0.603841] (-) TimerEvent: {}
+[0.704618] (-) TimerEvent: {}
+[0.805365] (-) TimerEvent: {}
+[0.906191] (-) TimerEvent: {}
+[1.007169] (-) TimerEvent: {}
+[1.108016] (-) TimerEvent: {}
+[1.208826] (-) TimerEvent: {}
+[1.309712] (-) TimerEvent: {}
+[1.410671] (-) TimerEvent: {}
+[1.511393] (-) TimerEvent: {}
+[1.613207] (-) TimerEvent: {}
+[1.714685] (-) TimerEvent: {}
+[1.815841] (-) TimerEvent: {}
+[1.917090] (-) TimerEvent: {}
+[2.017795] (-) TimerEvent: {}
+[2.118532] (-) TimerEvent: {}
+[2.219206] (-) TimerEvent: {}
+[2.319914] (-) TimerEvent: {}
+[2.422551] (-) TimerEvent: {}
+[2.523219] (-) TimerEvent: {}
+[2.624036] (-) TimerEvent: {}
+[2.724861] (-) TimerEvent: {}
+[2.825731] (-) TimerEvent: {}
+[2.926833] (-) TimerEvent: {}
+[3.027531] (-) TimerEvent: {}
+[3.128271] (-) TimerEvent: {}
+[3.229011] (-) TimerEvent: {}
+[3.330253] (-) TimerEvent: {}
+[3.431253] (-) TimerEvent: {}
+[3.532480] (-) TimerEvent: {}
+[3.633267] (-) TimerEvent: {}
+[3.733975] (-) TimerEvent: {}
+[3.834696] (-) TimerEvent: {}
+[3.935443] (-) TimerEvent: {}
+[4.036177] (-) TimerEvent: {}
+[4.136980] (-) TimerEvent: {}
+[4.238913] (-) TimerEvent: {}
+[4.360947] (-) TimerEvent: {}
+[4.461722] (-) TimerEvent: {}
+[4.562524] (-) TimerEvent: {}
+[4.664385] (-) TimerEvent: {}
+[4.767219] (-) TimerEvent: {}
+[4.869546] (-) TimerEvent: {}
+[4.961595] (gripper_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/gripper_control', 'build', '--build-base', '/home/jonathan/gripper/build/gripper_control/build', 'install', '--record', '/home/jonathan/gripper/build/gripper_control/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/jonathan/gripper/src/gripper_control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'zh_TW:en', 'USER': 'jonathan', 'SSH_CLIENT': '192.168.10.22 54442 22', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/jonathan/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/jonathan/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/jonathan', 'TERM_PROGRAM_VERSION': '1.100.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-84c39790-1621-4bca-879a-8358e020064f.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/jonathan/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'en_US.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/home/jonathan/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'humble', 'LOGNAME': 'jonathan', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2139', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/jonathan/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/jonathan/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand', 'FASTRTPS_DEFAULT_PROFILES_FILE': '/home/jonathan/.ros/fastdds.xml', 'PAPERSIZE': 'letter', 'LC_ADDRESS': 'en_US.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'zh_TW.UTF-8', 'LC_TELEPHONE': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-22ce4ec17b.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/jonathan/gripper/build/gripper_control', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.10.22 54442 192.168.10.33 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/home/jonathan/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jonathan/gripper/build/gripper_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jonathan/gripper/install/gripper_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1'}, 'shell': False}
+[4.970187] (-) TimerEvent: {}
+[5.074902] (-) TimerEvent: {}
+[5.175616] (-) TimerEvent: {}
+[5.276373] (-) TimerEvent: {}
+[5.377551] (-) TimerEvent: {}
+[5.478429] (-) TimerEvent: {}
+[5.579156] (-) TimerEvent: {}
+[5.679937] (-) TimerEvent: {}
+[5.780894] (-) TimerEvent: {}
+[5.881583] (-) TimerEvent: {}
+[5.982253] (-) TimerEvent: {}
+[6.082948] (-) TimerEvent: {}
+[6.183635] (-) TimerEvent: {}
+[6.284381] (-) TimerEvent: {}
+[6.352919] (gripper_control) StdoutLine: {'line': b'running egg_info\n'}
+[6.355798] (gripper_control) StdoutLine: {'line': b'writing ../../build/gripper_control/gripper_control.egg-info/PKG-INFO\n'}
+[6.356757] (gripper_control) StdoutLine: {'line': b'writing dependency_links to ../../build/gripper_control/gripper_control.egg-info/dependency_links.txt\n'}
+[6.358690] (gripper_control) StdoutLine: {'line': b'writing entry points to ../../build/gripper_control/gripper_control.egg-info/entry_points.txt\n'}
+[6.359215] (gripper_control) StdoutLine: {'line': b'writing requirements to ../../build/gripper_control/gripper_control.egg-info/requires.txt\n'}
+[6.359606] (gripper_control) StdoutLine: {'line': b'writing top-level names to ../../build/gripper_control/gripper_control.egg-info/top_level.txt\n'}
+[6.366817] (gripper_control) StdoutLine: {'line': b"reading manifest file '../../build/gripper_control/gripper_control.egg-info/SOURCES.txt'\n"}
+[6.371816] (gripper_control) StdoutLine: {'line': b"writing manifest file '../../build/gripper_control/gripper_control.egg-info/SOURCES.txt'\n"}
+[6.372568] (gripper_control) StdoutLine: {'line': b'running build\n'}
+[6.373010] (gripper_control) StdoutLine: {'line': b'running build_py\n'}
+[6.374472] (gripper_control) StdoutLine: {'line': b'running install\n'}
+[6.375851] (gripper_control) StdoutLine: {'line': b'running install_lib\n'}
+[6.382292] (gripper_control) StdoutLine: {'line': b'running install_data\n'}
+[6.383475] (gripper_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.384488] (-) TimerEvent: {}
+[6.390635] (gripper_control) StdoutLine: {'line': b"removing '/home/jonathan/gripper/install/gripper_control/lib/python3.10/site-packages/gripper_control-0.0.1-py3.10.egg-info' (and everything under it)\n"}
+[6.392693] (gripper_control) StdoutLine: {'line': b'Copying ../../build/gripper_control/gripper_control.egg-info to /home/jonathan/gripper/install/gripper_control/lib/python3.10/site-packages/gripper_control-0.0.1-py3.10.egg-info\n'}
+[6.400325] (gripper_control) StdoutLine: {'line': b'running install_scripts\n'}
+[6.484900] (-) TimerEvent: {}
+[6.495890] (gripper_control) StdoutLine: {'line': b'Installing servo_control_node script to /home/jonathan/gripper/install/gripper_control/lib/gripper_control\n'}
+[6.497962] (gripper_control) StdoutLine: {'line': b'Installing servo_controller script to /home/jonathan/gripper/install/gripper_control/lib/gripper_control\n'}
+[6.499329] (gripper_control) StdoutLine: {'line': b"writing list of installed files to '/home/jonathan/gripper/build/gripper_control/install.log'\n"}
+[6.585304] (-) TimerEvent: {}
+[6.656102] (gripper_control) CommandEnded: {'returncode': 0}
+[6.685468] (-) TimerEvent: {}
+[6.792076] (gripper_control) JobEnded: {'identifier': 'gripper_control', 'rc': 0}
+[6.794547] (-) TimerEvent: {}
+[6.796331] (-) EventReactorShutdown: {}
