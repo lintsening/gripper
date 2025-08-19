@@ -1,0 +1,11 @@
+{
+    "python.defaultInterpreterPath": "/usr/bin/python3.10",
+    "python.analysis.useLibraryCodeForTypes": true,
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportUndefinedVariable": "none"
+    },
+    "python.analysis.extraPaths": [
+        "/usr/lib/python3/dist-packages"
+    ],
+    "python.languageServer": "Pylance"
+}
