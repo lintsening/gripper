@@ -3,8 +3,8 @@ Name: gripper-control
 Version: 0.0.1
 Summary: Servo motor controller for gas pump gripper using Raspberry Pi
 Home-page: UNKNOWN
-Maintainer: Your Name
-Maintainer-email: your_email@example.com
+Maintainer: Lin, tsening
+Maintainer-email: linyingtsen2004@example.com
 License: MIT
 Platform: UNKNOWN
 
