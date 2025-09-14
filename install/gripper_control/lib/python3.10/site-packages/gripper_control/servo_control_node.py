@@ -2,7 +2,7 @@
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import Float32
-import RPi.GPIO as GPIO
+# import RPi.GPIO as GPIO
 
 # MG995 伺服馬達參數
 SERVO_PIN = 18  # GPIO 18 (BCM 編號)

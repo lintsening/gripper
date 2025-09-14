@@ -1,4 +1,9 @@
 #!/usr/bin/env python3
+'''
+這份程式碼是設計用於控制伺服馬達，發送topic做出角度控制的指令，ServoControllerNode作為抽象父類別給同資料夾中的press 和 rotate繼承
+init 參數、GPIO初始化，以及清理資訊cleanup
+另有抽象方法angle_callback
+'''
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import Float32
@@ -7,6 +12,7 @@ import time
 from abc import ABC, abstractmethod
 
 # 抽象 ServoControllerNode 類別（繼承自 rclpy.node.Node）
+@abstractclass
 class ServoControllerNode(Node, ABC):
     def __init__(self, node_name):
         super().__init__(node_name)

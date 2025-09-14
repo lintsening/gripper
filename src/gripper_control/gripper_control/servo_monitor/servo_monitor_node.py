@@ -5,6 +5,7 @@ from std_msgs.msg import Float32
 import RPi.GPIO as GPIO
 import time
 
+# servo 的 monitor 抽象類
 class ServoMonitorNode(Node):
     def __init__(self, node_name):
         super().__init__(node_name)

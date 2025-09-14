@@ -1,3 +1,8 @@
+from . import servo_monitor_node   # 匯入你自訂的 servo_monitor(父類別 ServoMonitorNode)
+import rclpy                    # ROS 2 Python API
+from std_msgs.msg import Float32  # 訂閱的訊息型態（角度指令會是 Float32）
+import time                     # 讓你能使用 time.sleep() 做延遲
+
 # MonitorPressNode（繼承自 ServoMonitorNode）
 class MonitorPressNode(ServoMonitorNode):
     def __init__(self):

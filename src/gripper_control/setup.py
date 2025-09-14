@@ -17,15 +17,17 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='Your Name',
-    maintainer_email='your_email@example.com',
+    maintainer='Lin, tsening',
+    maintainer_email='linyingtsen2004@example.com',
     description='Servo motor controller for gas pump gripper using Raspberry Pi',
     license='MIT',
     tests_require=['pytest'],
     entry_points={
-        'console_scripts': [
-            'servo_control_node = gripper_control.servo_control_node:main',
-            'servo_controller = gripper_control.servo_controller:main', 
-        ],
-    },
+    'console_scripts': [
+        'servo_press_node = gripper_control.servo_press_node:servo_press_main',
+        'servo_rotate_node = gripper_control.servo_rotate_node:servo_rotate_main',
+        'monitor_press_node = gripper_control.monitor_press_node:monitor_press_main',
+        'monitor_rotate_node = gripper_control.monitor_rotate_node:monitor_rotate_main',
+    ],
+},
 )
